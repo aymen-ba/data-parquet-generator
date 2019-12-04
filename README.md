@@ -1,12 +1,15 @@
 *Version séquentielle:
 
 1500 ligne par fichier/ 100 MO par fichier / 4min par fichier ==> 100 fichiers
+
 100 * 100 = 10 GO (Total)
+
 100 * 4 = 400 min = 6.66 heure (pour 100 fichiers)
 
 *version multithreading:
 
 1500000 * 100 fichiers = 150 000 000 lignes
+
 150000000 lignes / 8 threads = 18750000
 
 run 15:42 ==> GCmemory out of range
